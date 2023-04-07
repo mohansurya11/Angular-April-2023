@@ -1,0 +1,16 @@
+body{
+    background-color : rgb(217, 89, 89);
+}
+#fireWorks {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+  
+    height: 10%;
+    
+}
+#countdown{
+    justify-content: center;
+    text-align: center;
+}
