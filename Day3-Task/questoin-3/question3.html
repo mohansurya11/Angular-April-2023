@@ -6,36 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Timer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
-<script>
 
-let time = document.getElementById("timer");
-
-let seconds = 0;
-let minutes = 0;
-let hours   = 0;
-
-setInterval(function() {
-    seconds++;
-    if (seconds === 60) {
-        seconds = 0;       
-        minutes++;
-    }
-    if (minutes === 60) {
-        minutes = 0;       
-        hours++;
-    }
-    if (hours === 24) {     
-        hours = 0;
-    }
-    
-    time.innerHTML=hours+":"+minutes+":"+seconds;
-},1000);
-</script>
 
 <body>
-    <p id="timer"></p>
+    
+    <h1>Timer</h1>
+    <div id="timer">
+        
+    </div>
 </body>
-</html>
-
-
