@@ -3,22 +3,18 @@
 //   [Note : this 30sec countdown should be handled using set Interval and 
 //   After 30second you can clear the function using clearInterval
 
-let display=document.getElementById("hello")
-let img=document.getElementById("image")
-let c=5
-function countdown() 
-{
-    
-    display.innerHTML=c
-    c--
 
-    if (c<0)
-    {
-        clearInterval(a)
-       
-        img.src="firework.gif";
-        
-    }   
-}
 
-let a=setInterval(countdown,1000)
+var countdownT = 5;
+     
+      var countdownInterval = setInterval(function () {
+        countdownnum.innerHTML = countdownT;
+        countdownT--;
+
+        if (countdownT <0) {
+          clearInterval(countdownInterval);
+          countdownnum.style.display = "none";
+          let fireWork = document.getElementById("fireWorks");
+          fireWork.style.display = "block";
+        }
+      }, 1000);
