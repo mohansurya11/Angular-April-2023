@@ -1,6 +1,6 @@
 // 1. create a javascript code that runs every two seconds that changes image src
 //  in html page such that it would create a slide show of images every 2 seconds....
-images=["lion.jpg","tiger.png","elephant.jpg"]
+images=["bbb.jpg","bird.jpg","cat.jpg","ccc.jpg","cutecat.jpg","ddd.jpg","eee.jpg","monkey.jpg","panda.jpg",]
 let count=0
 
 setInterval(function(){
