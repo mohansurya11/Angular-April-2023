@@ -1,0 +1,26 @@
+
+/* .contents{
+    display: flex;
+    color: white;
+    
+}  */
+.cols{
+    display:flex;  
+    padding: 10px 40px;
+
+}
+
+
+.cols img{
+    margin-top: 20px;
+    width: 30px;
+    height:30px;
+    
+}
+.cols h2,p{
+    margin-left: 20px;
+}
+.cols p{
+    margin-top: 10px;
+}
+
