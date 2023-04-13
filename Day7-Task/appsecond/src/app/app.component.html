@@ -1,0 +1,10 @@
+<app-navigation-bar></app-navigation-bar>
+<app-container></app-container>
+<app-product-heading></app-product-heading>
+
+<app-product-box *ngFor="let x of services;let y=index" 
+[image]="image[y]" [title]="x" [description]="descriptions[y]">
+</app-product-box>
+  
+
+

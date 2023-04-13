@@ -1,0 +1,24 @@
+.product-box{
+    height:210px;
+    width: 340px;
+    margin-left: 100px;
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: white;
+    color: rgb(21, 18, 18);
+    float: left;
+    justify-content: center;
+    text-align: center;
+}
+
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #120f0f;
+}
+.product-box img{
+    width: 40px;
+}

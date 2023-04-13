@@ -1,0 +1,34 @@
+.navigation{
+    display:flex;
+    justify-content: space-between;
+    background: rgb(244, 246, 247);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.navigation-txt{
+    margin-right:40px;
+}
+.navigation-txt li{
+    list-style-type: none;
+    float: left;
+    font-size: 19px;
+    margin-right:40px;
+    
+}
+.logo img{
+    width: 60px;
+    height:40px;
+    padding:10px;
+    margin-left:40px;
+    
+}
+li a{
+text-decoration: none;
+text-align: center;
+display: block;
+color:black;
+padding: 10px;
+}
+li a:hover{
+    background: gray;
+}
