@@ -1,0 +1,45 @@
+<body>
+
+<div class="form">
+    <h1>Dialog-Form</h1>
+    <div class="txt">
+        <mat-form-field appearance="fill">
+            <mat-label>FirstName</mat-label>
+            <input matInput>
+        </mat-form-field>
+        </div>
+        
+        <div class="txt">
+        <mat-form-field appearance="fill">
+            <mat-label>LastName</mat-label>
+            <input matInput>
+        </mat-form-field>
+        </div>
+        
+        <div class="txt">
+        <mat-form-field appearance="fill">
+            <mat-label>Education</mat-label>
+            <input matInput>
+        </mat-form-field>
+        </div>
+        <div class="txt">
+        <mat-form-field class="dob" appearance="fill">
+
+            <mat-label>Enter DOB</mat-label>
+            <input matInput [matDatepicker]="picker">
+            <mat-hint>MM/DD/YYYY</mat-hint>
+            <mat-datepicker-toggle matIconSuffix [for]="picker">
+              <mat-icon matDatepickerToggleIcon>keyboard_arrow_down</mat-icon>
+            </mat-datepicker-toggle>
+            <mat-datepicker #picker></mat-datepicker>
+        </mat-form-field>
+        </div>
+        <div class="example-button-row">
+           
+            <!-- <button mat-button color="primary">Back</button> -->
+            <button mat-button class="submit">Submit</button>
+            
+        </div>
+
+</div>
+</body>
