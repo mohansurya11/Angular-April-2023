@@ -1,14 +1,10 @@
-body{
-    background-color: rgb(236, 232, 226);
-}
+
 .form{
-    background-color: lightgray;
+   
     justify-content: center;
     text-align: center;
-    width: 430px;
-    height: 500px;
-    margin-left: 500px;
-    border-radius: 20px;
+    width: 500px; 
+    
    
     
 }
@@ -19,7 +15,7 @@ body{
 h1{
     font-size: 25px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: rgb(87, 79, 79);
+    /* color: rgb(87, 79, 79); */
     
 }
 .submit{
