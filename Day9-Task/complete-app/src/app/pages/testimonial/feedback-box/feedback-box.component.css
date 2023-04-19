@@ -1,0 +1,29 @@
+h1{
+  text-align: center;
+}
+.feedback-box{
+  border:2px inset gray;
+  width: 600px;
+  height: 100px;
+  box-sizing: border-box;
+  box-shadow: 5px 5px 5px gray;
+  margin:30px auto;
+  background: rgb(161, 176, 191);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold';
+  
+}
+.text1{
+  padding-top: 10px;
+  padding-left:10px
+
+}
+.text2{
+  padding-top: 10px;
+  text-align: center;
+}
+.text3{
+  padding-top: 10px;
+  float: right;
+  padding-right: 10px;
+  font-size: 9px;
+}
