@@ -1,0 +1,69 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "iPhone 13 Pro",
+      "price": 999,
+      "image": "iphone13pro.jpg",
+      "type": "Electronics",
+      "description": "The latest iPhone model from Apple with advanced camera technology and 5G capabilities."
+    },
+    {
+      "id": 2,
+      "name": "L'Oreal Paris Infallible Pro-Matte Liquid Lipstick",
+      "price": 8.99,
+      "image": "lipstick.jpg",
+      "type": "Cosmetics",
+      "description": "A long-lasting liquid lipstick with a matte finish that stays put for up to 16 hours."
+    },
+    {
+      "id": 3,
+      "name": "Organic Avocado",
+      "price": 1.99,
+      "image": "avocado.jpg",
+      "type": "Groceries",
+      "description": "A ripe and creamy organic avocado, perfect for making guacamole or adding to a salad."
+    },
+    {
+      "id": 4,
+      "name": "To Kill a Mockingbird",
+      "price": 12.99,
+      "image": "mockingbird.jpg",
+      "type": "Books",
+      "description": "A classic novel by Harper Lee that explores themes of race, injustice, and morality in the American South."
+    },
+    {
+      "id": 5,
+      "name": "Apple MacBook Pro",
+      "price": 1499,
+      "image": "macbook-pro.jpg",
+      "type": "Electronics",
+      "description": "The MacBook Pro is a powerful laptop designed for professionals. It features a stunning Retina display, the latest Intel processors, and up to 10 hours of battery life. It's perfect for creatives, developers, and anyone who needs a powerful and portable computer."
+    },
+    {
+      "id": 6,
+      "name": "Moisturizing Lotion+",
+      "price": 27.00,
+      "image": "moisturizer.jpg",
+      "type": "Cosmetics",
+      "description": "Clinique's Dramatically Different Moisturizing Lotion+ is a lightweight, oil-free moisturizer that provides all-day hydration. It's perfect for dry and combination skin types and helps strengthen the skin's moisture barrier to keep it looking healthy and radiant."
+    },
+    {
+      "id": 7,
+      "name": "Organic Brown Rice",
+      "price": 2.99,
+      "image": "brown-rice.jpg",
+      "type": "Groceries",
+      "description": "This organic brown rice is a healthy and delicious alternative to white rice. It's high in fiber, protein, and nutrients, and is perfect for rice bowls, stir-fries, and other Asian-inspired dishes."
+    },
+    {
+      "id": 8,
+      "name": "The Great Gatsby",
+      "price": 12.99,
+      "image": "great-gatsby.jpg",
+      "type": "Books",
+      "description": "F. Scott Fitzgerald's classic novel tells the story of Jay Gatsby, a mysterious millionaire who throws extravagant parties in the hopes of winning back his lost love. Set in the Roaring Twenties, it's a story of love, ambition, and the corrupting influence of wealth."
+    }
+  ]
+}
+ 
