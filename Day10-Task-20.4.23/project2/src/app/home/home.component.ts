@@ -8,6 +8,19 @@ import { ProductService } from '../services/product.service';
 })
 export class HomeComponent {
   productlist:any;
+  types:string[]=[
+    "All",
+    "Electronics",
+    "Cosmetics",
+    "Books",
+    "Groceries"
+
+  ]
+  selected:string="All"
+  minvalue=500;
+  maxvalue=1000;
+  
+  
     constructor(private cs:ProductService){
       this.cs.getProducts().subscribe(
         {
@@ -16,5 +29,8 @@ export class HomeComponent {
         }
       )
 
+      
+
     }
+    
 }

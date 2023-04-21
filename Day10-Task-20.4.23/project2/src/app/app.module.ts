@@ -8,12 +8,16 @@ import { ProductListComponent } from './home/product-list/product-list.component
 import { HttpClientModule } from '@angular/common/http';
 import { MaterialModule } from './material/material.module';
 import { FormsModule } from '@angular/forms';
+import { TypefilterPipe } from './pipes/typefilter.pipe';
+import { PricefilterPipe } from './pipes/pricefilter.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    ProductListComponent
+    ProductListComponent,
+    TypefilterPipe,
+    PricefilterPipe
   ],
   imports: [
     BrowserModule,
