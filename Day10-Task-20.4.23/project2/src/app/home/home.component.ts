@@ -7,7 +7,7 @@ import { ProductService } from '../services/product.service';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent {
-  productlist:any;
+  
   types:string[]=[
     "All",
     "Electronics",
@@ -16,12 +16,14 @@ export class HomeComponent {
     "Groceries"
 
   ]
-  selected:string="All"
-  minvalue=500;
-  maxvalue=1000;
+  selected:string="All";
+  productlist:any;
+  minvalue=0;
+  maxvalue=2000;
   
   
     constructor(private cs:ProductService){
+
       this.cs.getProducts().subscribe(
         {
         next: (data:any)=>this.productlist=data,
