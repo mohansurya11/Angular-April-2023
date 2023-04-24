@@ -3,8 +3,8 @@ h1{
 }
 .feedback-box{
   border:2px inset gray;
-  width: 600px;
-  height: 100px;
+  width: 700px;
+  height: 110px;
   box-sizing: border-box;
   box-shadow: 5px 5px 5px gray;
   margin:30px auto;

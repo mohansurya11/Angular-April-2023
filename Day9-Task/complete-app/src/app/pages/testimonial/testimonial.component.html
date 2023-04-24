@@ -1,4 +1,8 @@
 <h1>OUR CUSTOMER FEEDBACK</h1>
-<app-feedback-box *ngFor="let x of feedbacklist" [feedback]="x">
 
-</app-feedback-box>
+<select [(ngModel)]="selected">
+  <option *ngFor="let x of types">{{x}}</option>
+</select><br/>
+<app-feedback-box 
+*ngFor="let x of feedbacklist | typefilter:selected"
+[feedback]="x"></app-feedback-box>

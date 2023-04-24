@@ -12,5 +12,5 @@
 
 
 <div class="container">
-  <app-product-list *ngFor="let x of productlist | pricefilter: minvalue:maxvalue" [product]="x"></app-product-list>
+  <app-product-list *ngFor="let x of productlist | typefilter:selected | pricefilter: minvalue:maxvalue" [product]="x"></app-product-list>
 </div>

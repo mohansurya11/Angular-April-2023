@@ -2,10 +2,10 @@
 <div class="feedback-box">
   
   <div class="text1">
-       {{feedback.name}} Says...
+       {{feedback.name | uppercase}} Said...
   </div>
   <div class="text2">
-    {{feedback.message}}
+    {{feedback.message | quoteit}}
   </div>
   <div class="text3">
     {{feedback.type}}
