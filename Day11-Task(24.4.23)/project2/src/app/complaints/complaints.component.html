@@ -1,0 +1,58 @@
+<div id="form"><h1 style="margin-bottom: 50px;">Send Us your complaints</h1>
+  <div style="overflow: hidden;">
+      <div class="formbox">
+          <h5>First Name</h5>
+          <input type="text" [(ngModel)]="fname">*
+      </div>
+      
+      <div class="formbox">
+          <h5>Email</h5>
+          <input type="email" [(ngModel)]="email">*
+      </div>
+      
+      <div class="formbox">
+          <h5>Message</h5>
+          <textarea [(ngModel)]="message"></textarea>*
+      </div>
+      <!-- <mat-form-field class="example-full-width" appearance="fill">
+        <mat-label>Product</mat-label>
+        <input matInput
+               aria-label="product"
+               [(ngModel)]="product"
+               [matAutocomplete]="auto"
+               [formControl]="stateCtrl">
+        <mat-autocomplete #auto="matAutocomplete">
+          <mat-option *ngFor="let prod of filteredStates | async" [value]="prod.name">
+            <img alt="" class="example-option-img" [src]="prod.flag" height="25">
+            <span>{{prod.name}}</span> 
+          </mat-option>
+        </mat-autocomplete>
+      </mat-form-field>
+      <br> -->
+      <!-- <form class="example-form">
+        <mat-form-field class="example-full-width" appearance="fill">
+          <mat-label>Number</mat-label>
+          <input type="text"
+                 placeholder="Pick one"
+                 aria-label="Number"
+                 matInput
+                 [formControl]="myControl"
+                 [matAutocomplete]="auto">
+          <mat-autocomplete #auto="matAutocomplete">
+            <mat-option *ngFor="let option of options" [value]="option">
+              {{option}}
+            </mat-option>
+          </mat-autocomplete>
+        </mat-form-field>
+       </form>  -->
+
+
+  </div>
+  <div class="alert alert-info" *ngIf="errors.length>0">
+      <ul >
+          <li *ngFor="let x of errors">{{x}}</li>
+      </ul>
+  </div>
+  <div style="margin:30px;"><button class="btn btn-secondary" (click)="submit()">Submit Enquiry</button></div>
+  </div>
+
