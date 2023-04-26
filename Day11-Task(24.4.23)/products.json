@@ -66,25 +66,13 @@
     }
   ],
   "complaints": [
+    
     {
-      "id": 31,
-      "fname": "Rahul",
-      "lname": "Krishna",
-      "email": "rahul@gmail.com",
-      "message": "We have a project to be done we want to talk to you on this aspect could you please let us know when can we have meeting"
-    },
-    {
-      "id": 59248,
-      "fname": "surya",
-      "lname": "mohan",
-      "email": "mohan270601@gmail.com",
-      "message": "hii.. Thiis is surya from mscompany"
-    },
-    {
-      "id": 83504,
-      "fname": "ggg",
-      "email": "surya@gmail.com",
-      "message": "gggfffffffffffffffffffcggggggggggggggggggg"
+      "id": 28291,
+      "fname": "mohan",
+      "email": "mohan@gmail.com",
+      "message": "display problem in iphone and speaker is not workig",
+      "name": "iPhone 13 Pro"
     }
   ]
 }
