@@ -11,6 +11,9 @@ export class ComplaintsComponent {
   email:any;
   message:any;
   errors:string[]=[];
+  name:string=""
+  products:any=[]
+
 
   
   constructor(private hs:ComplainService) { }
@@ -36,7 +39,8 @@ export class ComplaintsComponent {
      
           email: this.email,
           
-          message: this.message
+          message: this.message,
+          name:this.name
 
         }
         this.hs.postComplaint(obj).subscribe({
@@ -44,7 +48,8 @@ export class ComplaintsComponent {
             alert("You enquiry is posted")
             this.fname="",
             this.email="",
-            this.message=""
+            this.message="",
+            this.name=""
           },
 
           error: ()=>alert("there is a problem posting your equiry")

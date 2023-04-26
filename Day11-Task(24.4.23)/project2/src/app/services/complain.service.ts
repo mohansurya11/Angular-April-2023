@@ -6,6 +6,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class ComplainService {
+  
   postCompaint(obj: { id: number; fname: any; lname: any; email: any; message: any; }) {
     throw new Error('Method not implemented.');
   }
@@ -19,7 +20,7 @@ export class ComplainService {
       'Content-Type':  'application/json',
     })
 
-  return this.http.post("http://localhost:4500/complaints",obj,this.httpOptions);
+  return this.http.post("http://localhost:4500/places",obj,this.httpOptions);
  }
 
 }

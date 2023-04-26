@@ -13,39 +13,21 @@
       <div class="formbox">
           <h5>Message</h5>
           <textarea [(ngModel)]="message"></textarea>*
-      </div>
-      <!-- <mat-form-field class="example-full-width" appearance="fill">
-        <mat-label>Product</mat-label>
-        <input matInput
-               aria-label="product"
-               [(ngModel)]="product"
-               [matAutocomplete]="auto"
-               [formControl]="stateCtrl">
-        <mat-autocomplete #auto="matAutocomplete">
-          <mat-option *ngFor="let prod of filteredStates | async" [value]="prod.name">
-            <img alt="" class="example-option-img" [src]="prod.flag" height="25">
-            <span>{{prod.name}}</span> 
+      </div><br><br><br><br>
+      <div>
+      <mat-form-field class="example-full-width" appearance="fill">
+        
+        <mat-label class="title">Choose your Product</mat-label>
+        <input type="text" matInput [(ngModel)]="name" [matAutocomplete]="auto" class="producttext">
+        <mat-autocomplete #auto="matAutocomplete"> 
+          <mat-option *ngFor="let option of products | filter:name" [value]="option.name" >
+            {{option.name}}
           </mat-option>
         </mat-autocomplete>
       </mat-form-field>
-      <br> -->
-      <!-- <form class="example-form">
-        <mat-form-field class="example-full-width" appearance="fill">
-          <mat-label>Number</mat-label>
-          <input type="text"
-                 placeholder="Pick one"
-                 aria-label="Number"
-                 matInput
-                 [formControl]="myControl"
-                 [matAutocomplete]="auto">
-          <mat-autocomplete #auto="matAutocomplete">
-            <mat-option *ngFor="let option of options" [value]="option">
-              {{option}}
-            </mat-option>
-          </mat-autocomplete>
-        </mat-form-field>
-       </form>  -->
+    </div>
 
+      
 
   </div>
   <div class="alert alert-info" *ngIf="errors.length>0">
@@ -53,6 +35,7 @@
           <li *ngFor="let x of errors">{{x}}</li>
       </ul>
   </div>
-  <div style="margin:30px;"><button class="btn btn-secondary" (click)="submit()">Submit Enquiry</button></div>
-  </div>
 
+
+  <div style="margin:30px; "><button class="btn btn-secondary" (click)="submit()">Submit Enquiry</button></div>
+</div>

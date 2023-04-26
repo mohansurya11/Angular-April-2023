@@ -7,11 +7,12 @@ import { HomeComponent } from './home/home.component';
 import { ProductListComponent } from './home/product-list/product-list.component';
 import { HttpClientModule } from '@angular/common/http';
 import { MaterialModule } from './material/material.module';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { TypefilterPipe } from './pipes/typefilter.pipe';
 import { PricefilterPipe } from './pipes/pricefilter.pipe';
 import { ComplaintsComponent } from './complaints/complaints.component';
 import { MenuBarComponent } from './common/menu-bar/menu-bar.component';
+import { FilterPipe } from './pipes/filter.pipe';
 
 
 @NgModule({
@@ -22,16 +23,19 @@ import { MenuBarComponent } from './common/menu-bar/menu-bar.component';
     TypefilterPipe,
     PricefilterPipe,
     ComplaintsComponent,
-    MenuBarComponent
-
+    MenuBarComponent,
+    FilterPipe
+   
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     MaterialModule,
     HttpClientModule,
-    FormsModule
-    
+    FormsModule,
+    ReactiveFormsModule
+
+ 
   ],
   providers: [],
   bootstrap: [AppComponent]
