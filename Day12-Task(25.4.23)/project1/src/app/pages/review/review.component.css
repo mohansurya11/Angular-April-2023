@@ -1,0 +1,22 @@
+.rform{
+  border: 3px dashed lightslategray;
+ 
+  margin-left:300px;
+  margin-bottom: 20px;
+  width: 800px;
+  height: auto;
+  background: gainsboro;
+
+}
+th{
+
+  padding:20px;
+}
+
+button{
+  border:2px solid black;
+  color: green;
+  padding:7px;
+  margin-top:10px;
+  margin-bottom: 20px;
+}

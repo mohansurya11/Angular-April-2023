@@ -1,5 +1,5 @@
 <div class="details">
-  <h1>{{details.title}}</h1>
+  <h1>{{details.name}}</h1>
 
   <div class="image">
       <img src="http://localhost/{{service.image}}" />
@@ -9,3 +9,20 @@
       {{x}}
   </p>
 <div>
+<hr>
+  <div>
+      <h1 style="text-align: center;">Reviews</h1>
+      </div>
+      
+      <div class="review" *ngFor="let x of reviews | review:details.name">
+          <p class="data">{{x.name}} !!!</p>
+          <p class="data">"{{x.message}}"</p>
+      </div>
+  </div>
+<hr>
+ 
+<div>
+    <app-review [prod] = "details.name"></app-review>
+</div>
+
+  

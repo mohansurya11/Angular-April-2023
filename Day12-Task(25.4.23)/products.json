@@ -65,81 +65,133 @@
       "description": "F. Scott Fitzgerald's classic novel tells the story of Jay Gatsby, a mysterious millionaire who throws extravagant parties in the hopes of winning back his lost love. Set in the Roaring Twenties, it's a story of love, ambition, and the corrupting influence of wealth."
     }
   ],
-"details": [
+  "details": [
     {
       "id": 1,
-      "title": "Creating powerful brands and recognizable identities",
+      "name": "iPhone 13 Pro",
       "description": [
-        "We help brands connect and engage by finding a unique place and voice in the market. From brand strategy and positioning, to visual and verbal identity, as well as logo and graphic design, we offer expertise in all brand and identity related areas.",
-        "Turn to us for dazzling execution on your brand messaging and communications. From thought-provoking advertising campaigns to magazines or annual reports, our team will conceptualize and produce marketing communications that reflect your brand image and build credibility, as well as sales. Need a stand in Las Vegas for CES? Then you've also come to the right place."
-      ]
+        "     15 cm (6.1-inch) Super Retina XDR display Cinematic mode adds shallow depth of field and shifts focus automatically in your videos Advanced dual-camera system with 12MP Wide and Ultra Wide cameras; Photographic Styles, Smart HDR 4, Night mode, 4K Dolby Vision HDR recording 12MP TrueDepth front camera with Night mode, 4K Dolby Vision HDR recording A15 Bionic chip for lightning-fast performance"
+      ],
+      "image": "iphone13pro.jpg"
     },
     {
       "id": 2,
-      "title": "Quality content and inbound services to drive profitable business",
+      "name": "Liquid Lipstick",
       "description": [
-        "Regardless of your company size or which industry you work in, you need to engage with your prospects and customers with content that is useful and relevant to them. Content that will attract visitors via search, content you can use in your own channels, and content that will play a part in your paid media efforts.",
-        "At UP THERE EVERYWHERE, we work with inbound marketing, creating content that will engage, attract, engage and delight your target audience."
-      ]
+        "     Lipstick is a cosmetic product used to apply coloration and texture to lips, often made of wax and oil.",
+        "Different pigments are used to produce color",
+        "minerals such as silica may be used to provide texture."
+      ],
+      "image": "lipstick.jpg"
     },
     {
       "id": 3,
-      "title": "A picture speaks a thousand words",
+      "name": "Headphone",
       "description": [
-        "... and video and sound can say even more. Film is a powerful way to engage your audience and deliver complex messages. UP has extensive experience in audio-visual creation — we make films all over the world every week. ",
-        "Our talent pool includes directors, script and copywriters, video editors and production specialists who can create unique corporate films or short-and-sweet streaming video campaigns for YouTube that showcase your products or company.",
-        "We can also support you in hosting webinars (both as lead generation tools and to replace in-person meetings or conferences), developing podcasts, or scheduling live streaming programs on Facebook and LinkedIn."
-      ]
+        "     Rockerz 370 come equipped with latest Bluetooth v5.0 for instant wireless connectivity",
+        "The powerful 300mAh battery provides up to 8 Hours of audio bliss",
+        "40mm Dynamic Drivers supply immersive High Definition sound",
+        "The headset has padded earcups for a comfortable experience",
+        "The headphone has been ergonomically and aesthetically designed for a seamless experience",
+        "One can connect to Rockerz 370 via dual modes for connectivity in the form of Bluetooth and AUX"
+      ],
+      "image": "headphone.jpg"
     },
     {
       "id": 4,
-      "title": "ABC Limited delivers digital marketing services that get results",
+      "name": "To Kill a Mockingbird",
       "description": [
-        "ABC Limited will help you define your digital marketing strategy: it is the science of blending social media, Google, PPC, SEO, your website (and content) into one coherent plan. ",
-        "An engaging campaign should seamlessly combine relevant, eye catching creative with informed analytics, and most of all, targeting where your target audience is hanging out.",
-        "To create these amazing campaigns, we have a tried and tested process: this allows us to make sure we understand your business and commercial objectives.",
-        "We identify your target audience and create personas detailing: what sites they use, the media they consume, what motivates them",
-        "We analyze your competitors, producing a detailed report about their lead generation or sales strategy, what sites they appear on, where they are advertising, where their backlinks feature, the keywords they are ranking for and what their core propositions are."
-      ]
+        "     To Kill a Mockingbird is both a young girl's coming-of-age story and a darker drama ",
+        "about the roots and consequences of racism and prejudice, probing how good and evil can ",
+        "coexist within a single community or individual."
+      ],
+      "image": "mockingbird.jpg"
     },
     {
       "id": 5,
-      "title": "Connecting your offline and online worlds",
+      "name": "Apple MacBook Pro",
       "description": [
-        "Think of your ‘digital strategy’ as your ‘sales strategy’. The days of digital playing second fiddle to your offline activities are long gone.",
-        "At the start of all our web projects, we make sure we understand the goal of your site. This includes the role it plays in your sales pipeline, and how your online and offline channels integrate with it.",
-        "We take the time to understand your audience, competitors, your USP, and what will keep you at the forefront of your sector.",
-        "And then we craft the most usable and beautiful site for your customers."
-      ]
+        "     Apple MacBook Pro is a macOS laptop with a 13.30-inch display that has a resolution of 2560x1600 pixels.",
+        "12MP TrueDepth front camera with Night mode, 4K Dolby Vision HDR recording",
+        "It is powered by a Core i5 processor and it comes with 12GB of RAM. ",
+        "The Apple MacBook Pro packs 512GB of SSD storage."
+      ],
+      "image": "macbook-pro.jpg"
     },
     {
       "id": 6,
-      "title": "Understanding is key",
+      "name": "Moisturizing Lotion+",
       "description": [
-        "UP starts all major marketing, branding, advertising, digital and creative service projects with a deep understanding of your customers, competitors and marketplace.  This covers both quantitative and qualitative research and can range from desk and digital research to online surveys, telephone interviews and focus groups.",
-        "We have a vast experience with market research and can undertake original research if needed.  We don’t forget the importance of internal research either. Most often we find the key to igniting a campaign, brand or organization is to be found internally.",
-        "As part of our Audit Phase (using our BASE-UP program) we will often run an internal Start Me UP workshop session. UP has many years of experience running these sessions on every continent for clients ranging from small start ups to the likes of Microsoft and GE. Better understanding and insight is the beginning of any good creative or marketing plan."
+        "     This medication is used as a moisturizer to treat or prevent dry, rough, scaly, itchy skin and minor skin irritations",
+        "(such as diaper rash, skin burns from radiation therapy).",
+        "12MP TrueDepth front camera with Night mode, 4K Dolby Vision HDR recording",
+        "Emollients are substances that soften and moisturize the skin and decrease itching and flaking."
       ]
     },
     {
       "id": 7,
-      "title": "Connecting your offline and online worlds",
+      "name": "Organic Brown Rice",
       "description": [
-        "Think of your ‘digital strategy’ as your ‘sales strategy’. The days of digital playing second fiddle to your offline activities are long gone.",
-        "At the start of all our web projects, we make sure we understand the goal of your site. This includes the role it plays in your sales pipeline, and how your online and offline channels integrate with it.",
-        "We take the time to understand your audience, competitors, your USP, and what will keep you at the forefront of your sector.",
-        "And then we craft the most usable and beautiful site for your customers."
-      ]
+        "     This rice has a sweet nutty taste and chewy texture.",
+        "It is unpolished rice which has high fiber making it more nutritious",
+        "lower glycemic index (GI). Brown rice also contains essential vitamins",
+        "minerals including magnesium, manganese, potassium, phosphorous, iron, and B-vitamins."
+      ],
+      "image": "moisturizer.jpg"
     },
     {
-      "id": 7,
-      "title": "Connecting your offline and online worlds",
+      "id": 8,
+      "name": "The Great Gatsby",
       "description": [
-        "Think of your ‘digital strategy’ as your ‘sales strategy’. The days of digital playing second fiddle to your offline activities are long gone.",
-        "At the start of all our web projects, we make sure we understand the goal of your site. This includes the role it plays in your sales pipeline, and how your online and offline channels integrate with it.",
-        "We take the time to understand your audience, competitors, your USP, and what will keep you at the forefront of your sector.",
-        "And then we craft the most usable and beautiful site for your customers."
-      ]
+        "     The Great Gatsby, Third novel by American author F. Scott Fitzgerald, published in 1925.",
+        "Set in Jazz Age New York, it tells the tragic story of Jay Gatsby, a self-made millionaire.",
+        "pursuit of Daisy Buchanan, a wealthy young woman whom he loved in his youth."
+      ],
+      "image": "great-gatsby.jpg"
+    }
+  ],
+  "reviews": [
+    {
+      "id": 3569,
+      "name": "surya",
+      "email": "surya@gmail.com",
+      "message": "book font is not visible ",
+      "product": "The Great Gatsby"
+    },
+    {
+      "id": 5640,
+      "name": "surya",
+      "email": "surya@gmail.com",
+      "message": "The screen is AMAZING.. it doesn't have 90 or 120 hz refresh rate but it FEELS better than my Nord with 90 hz!!",
+      "product": "iPhone 13 Pro"
+    },
+    {
+      "id": 2970,
+      "name": "mohan",
+      "email": "mohan270601@gmail.com",
+      "message": "Product is good, but boat needs to workout in comfort thing, compared to Sony what I have is more comfortable compared to this. .. this feels pressing to ears - not comfortable (3 out of 5). ..",
+      "product": "Headphone"
+    },
+    {
+      "id": 6521,
+      "name": "mohan surya",
+      "email": "mohan@gmail.com",
+      "message": "The 2022 MacBook Air has a better chip, bigger display and new design, but is it worth spending more while the M1 version is still on sale?",
+      "product": "Apple MacBook Pro"
+    },
+    {
+      "id": 7536,
+      "name": "mohan",
+      "email": "surya@gmail.com",
+      "message": "Quickly and efficiently size and reset window dimensions",
+      "product": "Apple MacBook Pro"
+    },
+    {
+      "id": 3055,
+      "name": "raja",
+      "email": "raja@gmail.com",
+      "message": "Volume for GPS cannot be increased. I have wasted over an hour searching for a solution.",
+      "product": "iPhone 13 Pro"
     }
   ]
 }

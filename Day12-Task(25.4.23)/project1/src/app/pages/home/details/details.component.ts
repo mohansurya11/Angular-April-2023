@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { ProductService } from 'src/app/services/product.service';
+import { ReviewService } from 'src/app/services/review.service';
 
 
 @Component({
@@ -9,10 +10,19 @@ import { ProductService } from 'src/app/services/product.service';
   styleUrls: ['./details.component.css']
 })
 export class DetailsComponent {
-  id:any;
+  reviews:any;  
+    id:any;
    service:any;
    details:any;
-  constructor(private hs:ProductService,private ar:ActivatedRoute){
+   
+  constructor(private hs:ProductService,private ar:ActivatedRoute,rs:ReviewService){
+
+    rs.getReviews().subscribe(
+      {
+        next:(data:any)=>this.reviews=data,
+        error:()=>this.reviews={}
+      }
+    )
      this.ar.params.subscribe(
        {
          next: (params)=>{ 
@@ -35,6 +45,7 @@ export class DetailsComponent {
          next: (data:any)=> this.details =data,
          error: ()=> this.details = {}
      })
+
   }
 
 }

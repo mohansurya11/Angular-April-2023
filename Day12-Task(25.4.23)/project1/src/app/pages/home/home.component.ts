@@ -18,7 +18,7 @@ export class HomeComponent {
   selected:string="All";
   productlist:any;
   minvalue=0;
-  maxvalue=2000;
+  maxvalue=125000;
   
   
     constructor(private cs:ProductService){

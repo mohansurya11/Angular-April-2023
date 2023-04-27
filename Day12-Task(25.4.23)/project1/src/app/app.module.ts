@@ -10,10 +10,12 @@ import { TypefilterPipe } from './pipes/typefilter.pipe';
 import { PricefilterPipe } from './pipes/pricefilter.pipe';
 import { MaterialModule } from './material/material.module';
 import { HttpClientModule } from '@angular/common/http';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HomeComponent } from './pages/home/home.component';
 import { ProductBoxComponent } from './pages/product-box/product-box.component';
 import { DetailsComponent } from './pages/home/details/details.component';
+import { ReviewPipe } from './pipes/review.pipe';
+import { ReviewComponent } from './pages/review/review.component';
 
 
 
@@ -28,7 +30,9 @@ import { DetailsComponent } from './pages/home/details/details.component';
     PricefilterPipe,
     HomeComponent,
     ProductBoxComponent,
-    DetailsComponent
+    DetailsComponent,
+    ReviewPipe,
+    ReviewComponent
  
   ],
   imports: [
@@ -37,7 +41,8 @@ import { DetailsComponent } from './pages/home/details/details.component';
     BrowserAnimationsModule,
     MaterialModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule
 
   ],
   providers: [],

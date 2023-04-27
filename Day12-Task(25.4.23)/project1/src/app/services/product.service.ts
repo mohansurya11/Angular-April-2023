@@ -16,7 +16,7 @@ export class ProductService {
   }
 
   getProductById(id:number):Observable<any>{
-    return this.http.get("http://localhost:4500/services/"+id)
+    return this.http.get("http://localhost:4500/products/"+id)
   }
   
 }
